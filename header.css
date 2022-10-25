@@ -1,5 +1,5 @@
 header {
-    margin: 0, 28;
+    margin: 20px 60px 987px 60px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -9,7 +9,7 @@ header {
     font-family: "Orbitron", sans-serif;
 }
 body {
-    background-color: #001;
+    background-color: black;
     }
 img .Logo{
     display: flex;
@@ -56,5 +56,5 @@ align-items: center;
     line-height: 7px;
     position: absolute;
     top: 15px;
-    right: 190px;
+    right: 250px;
 }
