@@ -1,4 +1,60 @@
-header{
-    width: 1320px
-    height 62px;
+header {
+    margin: 0, 28;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 18px 18px auto;
+}
+*{
+    font-family: "Orbitron", sans-serif;
+}
+body {
+    background-color: #001;
+    }
+img .Logo{
+    display: flex;
+    align-items: center;
+}
+nav>a .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin: 30px 30px auto;
+}
+.buttons{
+display: flex;
+align-items: center;
+}
+.buttons .Cart{
+ display: flex;
+ height: 32px;
+ padding-right: 40px;
+ align-items: center;
+}
+.buttons .contact-buttons{
+    color: white;
+    padding: 16px 31px;
+    background: none;
+    border: 1px solid white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    user-select: none;
+    align-items: center;
+}
+.buttons .sus{
+    background-color: white;
+    color: black;
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 7px;
+    position: absolute;
+    top: 15px;
+    right: 190px;
 }
